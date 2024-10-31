@@ -384,6 +384,7 @@
     background-size: cover;
     padding: 140px 0 60px 0;
     transition: 0.5s;
+    background-color: #ffffff;
 }
 
 @media (min-width: 992px) {
@@ -403,7 +404,7 @@
 }
 
 .bg-breadcrumb .breadcrumb .breadcrumb-item a {
-    color: var(--bs-white);
+    background-color: #ffffff;
 }
 /*** Single Page Hero Header End ***/
 
@@ -867,7 +868,7 @@
 
 /*** Footer Start ***/
 .footer {
-    background: var(--bs-secondary);
+    background-color: #ffffff;
 }
 
 .footer .footer-item {
@@ -877,7 +878,7 @@
 
 .footer .footer-item a {
     line-height: 35px;
-    color: var(--bs-body);
+    background-color: #ffffff;;
     transition: 0.5s;
 }
 
@@ -886,7 +887,7 @@
 }
 
 .footer .footer-item a:hover {
-    color: var(--bs-primary);
+    background-color: #ffffff;
 }
 
 .footer .footer-item .footer-btn a,
@@ -895,17 +896,17 @@
 }
 
 .footer .footer-item .footer-btn a:hover {
-    background: var(--bs-white);
+    background-color: #ffffff;
 }
 
 .footer .footer-item .footer-btn a:hover i {
-    color: var(--bs-primary);
+    background-color: #ffffff;
 }
 /*** Footer End ***/
 
 /*** copyright Start ***/
 .copyright {
-    background: var(--bs-dark);
+    background-color: #ffffff;
 }
 /*** copyright end ***/
 
