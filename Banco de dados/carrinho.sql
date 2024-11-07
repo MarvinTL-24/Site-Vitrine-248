@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 31/10/2024 às 15:16
+-- Tempo de geração: 07/11/2024 às 13:41
 -- Versão do servidor: 10.4.32-MariaDB
 -- Versão do PHP: 8.0.30
 
@@ -29,10 +29,11 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `carrinho` (
   `ID` int(11) NOT NULL,
-  `CODIGO` int(11) NOT NULL,
-  `TAMANHO` varchar(3) NOT NULL,
-  `COR` varchar(30) NOT NULL,
-  `QUANTIDADE` int(11) NOT NULL
+  `Nome` varchar(50) NOT NULL,
+  `Valor` decimal(10,2) NOT NULL,
+  `Tamanho` varchar(3) NOT NULL,
+  `Cor` varchar(25) NOT NULL,
+  `Imagem` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
